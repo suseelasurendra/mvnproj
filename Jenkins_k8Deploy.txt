@@ -22,3 +22,41 @@ node{
         sh "docker push sathyadevops/jenkins_k8image"
     }
 }
+===============================================================
+
+pipeline{
+    agent any
+    environment {
+        VAR_DOCKER_HUB_CREDS = credentials('dockerhub-creds')
+    }
+
+   stages{
+    stage("git clone"){
+        steps{
+       git credentialsId: 'GIT_CREDS', url: 'https://github.com/sathyadevops/mvnproj.git'
+        }
+    }
+    //stage("clean comple"){
+     //   steps{
+    
+    //    sh "/usr/bin/mvn clean compile test package"
+    //    }
+    //}
+    stage("docker login"){
+        steps{
+        sh "echo $VAR_DOCKER_HUB_CREDS_PSW | docker login -u $VAR_DOCKER_HUB_CREDS_USR --password-stdin"
+        }
+    }
+
+    stage("docker build"){
+        steps{
+        sh "docker build -t sathyadevops/jenkins_k8image ."
+        }
+    }
+    stage("docker push"){
+        steps{
+        sh "docker push sathyadevops/jenkins_k8image"
+        }
+    }
+   }
+}
