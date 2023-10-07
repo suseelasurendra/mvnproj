@@ -6,7 +6,7 @@
         <title>Hello Java EE Continuous Delivery!</title>
     </head>
     <body>
- <table border = "4" bordercolor = "red" bgcolor = "pink">
+ <table border = "4" bordercolor = "blue" bgcolor = "pink">
          <tr>
             <th>Column 1</th>
             <th>Column 2</th>
