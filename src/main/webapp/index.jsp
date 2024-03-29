@@ -6,7 +6,11 @@
         <title>Hello Java EE Continuous Delivery!</title>
     </head>
     <body>
- <table border = "4" bordercolor = "yellow" bgcolor = "green">
+
+ <h1> ############  Sample code for Jenkns Practice ######## </h1>
+ <h1> ############  Sample code for Jenkns Practice ######## </h1>
+
+ <table border = "4" bordercolor = "green" bgcolor = "yellow">
          <tr>
             <th>Column 1</th>
             <th>Column 2</th>
@@ -27,8 +31,6 @@
       </table>
 
       <h1> ******************************************* </h1>
-      <h1> *** ::: TEST CODE FOR DEVOPS PRACTICE  ::: *** </h1>
-      <h1> *** ::: TEST CODE FOR DEVOPS PRACTICE  ::: *** </h1>
       <h1> *** ::: TEST CODE FOR DEVOPS PRACTICE  ::: *** </h1>
       <h1> *** ::: TEST CODE FOR DEVOPS PRACTICE  ::: *** </h1>
       <h1> ******************************************* </h1>
