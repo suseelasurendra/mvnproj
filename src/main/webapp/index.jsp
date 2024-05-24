@@ -7,10 +7,10 @@
     </head>
     <body>
 
- <h1>**********  Sample code for Jenkns Practice ******</h1>
+ <h1>***** TEST CODE *****</h1>
 
 
- <table border = "4" bordercolor = "green" bgcolor = "pink">
+ <table border = "4" bordercolor = "blue" bgcolor = "yellow">
          <tr>
             <th>Column 1</th>
             <th>Column 2</th>
@@ -31,11 +31,10 @@
       </table>
 
       <h1> ******************************************* </h1>
-      <h1> *** ::: TEST CODE FOR DEVOPS PRACTICE  ::: *** </h1>
-      <h1> *** ::: TEST CODE FOR DEVOPS PRACTICE  ::: *** </h1>
+      <h1> *** ::: JENKINS CODE  ::: *** </h1>
       <h1> ******************************************* </h1>
 
-<table width="40%" bgcolor="pink" align="center" border="2">
+<table width="40%" bgcolor="green" align="center" border="2">
 
 <tr>
 <td colspan=2><center><font size=4><b>HTML Login Page</b></font></center></td>
