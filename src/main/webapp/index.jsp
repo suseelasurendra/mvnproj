@@ -8,9 +8,12 @@
     <body>
 
  <h1>***** TEST CODE *****</h1>
+<h1>*****New code *****</h1>
+<h1> update new code </h1>
+<h1> maven project </h1>
 
 
- <table border = "4" bordercolor = "blue" bgcolor = "yellow">
+ <table border = "4" bordercolor = "yellow" bgcolor = "yellow">
          <tr>
             <th>Column 1</th>
             <th>Column 2</th>
@@ -53,7 +56,7 @@ button {
         margin: 8px 0;  
         padding: 12px 20px;   
         display: inline-block;   
-        border: 2px solid green;   
+        border: 2px solid red;   
         box-sizing: border-box;   
     }  
  button:hover {   
@@ -68,7 +71,7 @@ button {
      
  .container {   
         padding: 25px;   
-        background-color: lightblue;  
+        background-color: lightpink;  
     }   
 </style>   
 </head>    
